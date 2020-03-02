@@ -1,3 +1,16 @@
+#User Guide
+* todo: "todo read book"
+* event: "event tutorial /at 2pm"
+* deadline: "deadline CS2113 /by today"
+* done: "done 1"
+* delete: "delete 2"
+* list: "list"
+
+
+
+
+
+
 # Setting up
 
 **Prerequisites**
