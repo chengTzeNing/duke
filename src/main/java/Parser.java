@@ -15,7 +15,7 @@ public class Parser {
     public static Command parseInput(String userInput) throws IndexOutOfBoundsException, IllegalArgumentException {
         String[] separatedUserInput = userInput.trim().split(" ");
         String firstWordOfUserInput = separatedUserInput[0];
-        Command command = new Command("wait ah");
+        Command command;
         switch (firstWordOfUserInput) {
             case "todo":
                 command = new TodoCommand(userInput);
@@ -35,6 +35,8 @@ public class Parser {
             case "list":
                 command = new ListCommand(userInput);
                 break;
+            case "find":
+                command = new FindCommand(userInput);
             default:
                 command = new NoSuchCommand(userInput);
                 break;

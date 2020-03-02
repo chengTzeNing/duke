@@ -13,11 +13,12 @@ public class Messages {
             "\"todo\": add a todo\n" +
             "\"deadline\": add a deadline\n" +
             "\"event\": add an event\n" +
-            "\"done\": check off a task on your list";
+            "\"done\": check off a task on your list\n";
 
     /**
      * Exit message.
      */
+
     public static String EXIT_MESSAGE = "Bye la you";
 
     /**
